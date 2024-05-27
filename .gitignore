@@ -1,0 +1,54 @@
+# Ignore the target directory, which contains the compiled artifacts
+/target/
+
+# Ignore any Cargo.lock file, which is specific to your environment
+Cargo.lock
+
+# Ignore the .idea directory, which is used by JetBrains IDEs like IntelliJ IDEA and CLion
+.idea/
+
+# Ignore the .vscode directory, which is used by Visual Studio Code
+.vscode/
+
+# Ignore any generated documentation
+/target/doc/
+
+# Ignore the .DS_Store file, which is created by macOS
+.DS_Store
+
+# Ignore the Thumbs.db file, which is created by Windows
+Thumbs.db
+
+# Ignore the debug log file
+debug.log
+
+# Ignore the npm log file
+npm-debug.log
+
+# Ignore the Yarn log file
+yarn-error.log
+
+# Ignore the Rust language server files
+.rls/
+
+# Ignore backup files created by some editors
+*~
+
+# Ignore compiled dynamic libraries
+*.dylib
+*.so
+*.dll
+
+# Ignore executable binaries
+*.exe
+
+# Ignore cargo install artifacts
+.cargo/
+
+# Ignore Rustfmt and Clippy configuration
+rustfmt.toml
+clippy.toml
+
+# Ignore the results of 'cargo bench'
+/target/criterion/
+
